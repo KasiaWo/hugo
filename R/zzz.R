@@ -8,6 +8,9 @@ setDefaultHugoEnv <- function() {
   options(hugo.know_credentials = F)
   options(hugo.user_name = '')
   options(hugo.repo_name = '')
+
+  options(hugo.know_summary_parameters = F)
+
 }
 
 .onAttach <- function(...) {
